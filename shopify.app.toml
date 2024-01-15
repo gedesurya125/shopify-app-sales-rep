@@ -2,7 +2,7 @@
 
 name = "sales-rep"
 client_id = "fd817e1b85bfd33c71a9d2d7c10c1b7e"
-application_url = "https://van-around-temp-sp.trycloudflare.com"
+application_url = "https://dealt-fight-rebound-used.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://van-around-temp-sp.trycloudflare.com/auth/callback",
-  "https://van-around-temp-sp.trycloudflare.com/auth/shopify/callback",
-  "https://van-around-temp-sp.trycloudflare.com/api/auth/callback"
+  "https://dealt-fight-rebound-used.trycloudflare.com/auth/callback",
+  "https://dealt-fight-rebound-used.trycloudflare.com/auth/shopify/callback",
+  "https://dealt-fight-rebound-used.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
