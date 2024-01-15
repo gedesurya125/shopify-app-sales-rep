@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "sales-rep"
+client_id = "fd817e1b85bfd33c71a9d2d7c10c1b7e"
+application_url = "https://van-around-temp-sp.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://van-around-temp-sp.trycloudflare.com/auth/callback",
+  "https://van-around-temp-sp.trycloudflare.com/auth/shopify/callback",
+  "https://van-around-temp-sp.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "gedesurya125.myshopify.com"
